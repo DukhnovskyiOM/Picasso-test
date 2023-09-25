@@ -7,7 +7,7 @@ function App() {
   return (
     <BrowserRouter>
       <Routes>
-        <Route path="/" element={<MainPage />} />
+        <Route path="/Picasso-test/" element={<MainPage />} />
         <Route path="posts/:id" element={<PostPage />} />
       </Routes>
     </BrowserRouter>
