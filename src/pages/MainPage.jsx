@@ -45,7 +45,7 @@ const MainPage = () => {
                 <span className="row_body">{post?.body}</span>
               </div>
               <div className="wrap_button">
-                <Link to={`/posts/${post?.id}`} state={{ post }}>
+                <Link to={`/Picasso-test/posts/${post?.id}`} state={{ post }}>
                   просмотр
                 </Link>
               </div>
