@@ -1,0 +1,133 @@
+* {
+  box-sizing: border-box;
+}
+
+.App {
+  color: white;
+  min-height: 100vh;
+  flex: 1;
+}
+
+.row {
+  display: flex;
+  position: relative;
+  align-items: center;
+  justify-content: space-between;
+  gap: 15px;
+  padding: 0 15px;
+  border-bottom: 1px solid #ebeced;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  width: 100%;
+}
+
+.wrap_text {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 15px;
+  width: 90%;
+}
+
+.wrap_button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding-right: 30px;
+}
+
+.row_id {
+  width: 15px;
+  display: flex;
+}
+
+.row_title {
+  color: blue;
+  font-weight: 700;
+  text-transform: uppercase;
+  padding-left: 15px;
+}
+
+.row_body {
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+a {
+  text-decoration: none;
+  color: white;
+  border: 1px solid #5d5b8d;
+  border-radius: 50px;
+  padding: 2px 4px;
+  background-color: #5d5b8d;
+  outline: none;
+  
+}
+
+a:hover {
+  background-color: #7b78b8;
+}
+
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #a3a5a2;
+}
+.wrapper {
+  width: 100%;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  align-items: center;
+  background-color: #a3a5a2;
+}
+
+.wrapper_title {
+  color: #5d5b8d;
+  padding-top: 25px;
+  font-size: 30px;
+  max-width: 400px;
+  margin-bottom: 20px;
+  display: block;
+  text-align: center;
+  font-weight: 700;
+  text-shadow: 5px 5px 10px #87e74f, 5px -5px 10px #87e74f,
+    -5px 5px 10px #87e74f, -5px -5px 10px #87e74f;
+  text-transform: uppercase;
+}
+
+.wrapper_body {
+  max-width: 600px;
+}
+
+.wrapper_button {
+  border-radius: 8px;
+  background: linear-gradient(96deg, #da8023 0%, #e2b438 100%);
+  width: 260px;
+  height: 62px;
+  box-sizing: border-box;
+  padding: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 0;
+  cursor: pointer;
+  outline: none;
+  font-size: 28px;
+  color: #191411;
+  text-decoration: none;
+}
+
+.wrapper_button:hover {
+  background: linear-gradient(96deg, #ac6115 0%, #9e7a19 100%);
+}
+
+.error {
+  color: rgb(240, 72, 72);
+  text-transform: uppercase;
+  font-size: 31px;
+}
