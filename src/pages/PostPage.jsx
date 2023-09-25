@@ -7,7 +7,7 @@ const PostPage = () => {
   return (
     <div className="container">
       <div className="wrapper">
-        <Link className="wrapper_button" to="/">
+        <Link className="wrapper_button" to="/Picasso-test/">
           Назад
         </Link>
         <span className="wrapper_title">{post.title}</span>
